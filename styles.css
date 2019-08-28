@@ -2,13 +2,19 @@
     color: black;
     margin: 2xp;
     padding: 2xp;
-    background-color: whitesmoke;
+    background-color: rgb(163, 216, 175);
     text-align: left
 }
+<<<<<<< HEAD
 .header {
     padding: 99px;
     text-align: center;
     background: darkgreen;
     color: darkslategray;
     font-size: 30px;
+=======
+
+.VEGANRECEPTY {
+    color: rgb(33, 99, 44);
+>>>>>>> 7e481270a10598bb47a3ed84f74207ade1586d5a
 }
