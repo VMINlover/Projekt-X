@@ -5,3 +5,10 @@
     background-color: whitesmoke;
     text-align: left
 }
+.header {
+    padding: 99px;
+    text-align: center;
+    background: darkgreen;
+    color: darkslategray;
+    font-size: 30px;
+}
