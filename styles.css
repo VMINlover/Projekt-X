@@ -18,3 +18,17 @@
     color: rgb(33, 99, 44);
 >>>>>>> 7e481270a10598bb47a3ed84f74207ade1586d5a
 }
+
+
+    
+*{
+    color: black;
+    margin: 2xp;
+    padding: 2xp;
+    background-color: whitesmoke;
+    text-align: left
+}
+
+.VEGANRECEPTY {
+    color: rgb(33, 99, 44);
+}
