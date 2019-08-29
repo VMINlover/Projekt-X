@@ -20,3 +20,17 @@
 .flex {
     display: flex;
 }
+
+
+    
+*{
+    color: black;
+    margin: 2xp;
+    padding: 2xp;
+    background-color: whitesmoke;
+    text-align: left
+}
+
+.VEGANRECEPTY {
+    color: rgb(33, 99, 44);
+}
