@@ -2,6 +2,31 @@
     color: black;
     margin: 2xp;
     padding: 2xp;
+    background-color: rgb(163, 216, 175);
+    text-align: left
+}
+.header {
+    padding: 99px;
+    text-align: center;
+    background: darkgreen;
+    color: darkslategray;
+    font-size: 30px;
+}
+
+.VEGANRECEPTY {
+    color: rgb(33, 99, 44);
+}
+
+.flex {
+    display: flex;
+}
+
+
+    
+*{
+    color: black;
+    margin: 2xp;
+    padding: 2xp;
     background-color: whitesmoke;
     text-align: left
 }
@@ -10,7 +35,8 @@
     color: rgb(33, 99, 44);
 }
 
+.italicGreen{
+color: green;
+font-style: italic;
 
-.flex {
-    display: flex;
 }
