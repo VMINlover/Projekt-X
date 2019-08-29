@@ -34,3 +34,9 @@
 .VEGANRECEPTY {
     color: rgb(33, 99, 44);
 }
+
+.italicGreen{
+color: green;
+font-style: italic;
+
+}
