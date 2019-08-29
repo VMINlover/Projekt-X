@@ -9,3 +9,8 @@
 .VEGANRECEPTY {
     color: rgb(33, 99, 44);
 }
+
+
+.flex {
+    display: flex;
+}

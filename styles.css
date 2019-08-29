@@ -5,20 +5,20 @@
     background-color: rgb(163, 216, 175);
     text-align: left
 }
-<<<<<<< HEAD
 .header {
     padding: 99px;
     text-align: center;
     background: darkgreen;
     color: darkslategray;
     font-size: 30px;
-=======
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymou
+}
 
 .VEGANRECEPTY {
     color: rgb(33, 99, 44);
->>>>>>> 7e481270a10598bb47a3ed84f74207ade1586d5a
+}
+
+.flex {
+    display: flex;
 }
 
 

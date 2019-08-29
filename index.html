@@ -2,69 +2,70 @@
 <html>
 
 <head>
-
-  <br>
-  
   <h1 class="item VEGANRECEPTY">VEGAN RECEPTY</h1>
-    <p>Pár tipů na námi osvědčené recepty!</p>
+  <p>Pár tipů na námi osvědčené recepty!</p>
   </div>
 
   <button onclick="showLink();">Facebook:</button>
   <p><a id="facebookLink" href="https://www.facebook.com/vege.receptz.1"></a></p>
+  <div class="flex">
+    <button onclick="showEmail()">E-mail: </button>
+    <div id="email"></div>
+  </div>
+  <link rel="stylesheet" href="css/styles.css">
+  </link>
+  <script src="js.js"></script>
+  <meta charset="UTF-8">
+  </meta>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-      <link rel="stylesheet" href="css/styles.css">
-      </link>
-      <script src="js.js"></script>
-      <meta charset="UTF-8">
-      </meta>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-  
-    
-    </head>
 
-    <body>
-      &nbsp;<a href="http://www.veganotic.cz/clanky/299-bezlepkove-ovocne-knedlicky" target="blank"><img margin right
-          src="ovocne_knedliky.jpg" title="odkaz" alt="Ov.kn." width="320" height="205"></a>
-          <a href="http://www.veganotic.cz/clanky/296-michane-tofu-s-opecenym-tempehem-a-grilovanym-chrestem"><img
-            src="ch.jpg" width="280" height="205" /> </a>
-      <a href="http://www.veganotic.cz/clanky/298-letni-burgery-s-avokadem-a-grilovanymi-paprikami"><img
-          src="ruzovy_burger11.jpg" alt="r.b." width="320" height="205" /></a>
-          &nbsp;<img src="chleb.jpg" alt="tch" width="320" height="205" />
-      &nbsp;
-      
-      <p style="text-align:justify"><div>
-          &nbsp;<h1>&nbsp;Turecký chléb lavaš</h1>
-          &nbsp;<p>&nbsp;&nbsp;INGREDIENCE</p>
-          <ul>
-              <li>400g chlebové mouky</li>
-              <li>2 lžíce oleje</li>
-              <li>hrnek vody</li>
-              <li>sůl</li>
-          </ul>
-          &nbsp;<p>&nbsp;&nbsp;POSTUP</p>
-          <b>&nbsp;&nbsp;Troubu předehřejeme na 250 °C. 
-         <br>&nbsp;&nbsp;Mezitím si zpracujeme ingredience 
-         <br>&nbsp;&nbsp;do těsta, které se nelepí.
-        Následně 
+</head>
+
+<body>
+  &nbsp;<a href="http://www.veganotic.cz/clanky/299-bezlepkove-ovocne-knedlicky" target="blank"><img margin right
+      src="ovocne_knedliky.jpg" title="odkaz" alt="Ov.kn." width="320" height="205"></a>
+  <a href="http://www.veganotic.cz/clanky/296-michane-tofu-s-opecenym-tempehem-a-grilovanym-chrestem"><img src="ch.jpg"
+      width="280" height="205" /> </a>
+  <a href="http://www.veganotic.cz/clanky/298-letni-burgery-s-avokadem-a-grilovanymi-paprikami"><img
+      src="ruzovy_burger11.jpg" alt="r.b." width="320" height="205" /></a>
+  &nbsp;<img src="chleb.jpg" alt="tch" width="320" height="205" />
+  &nbsp;
+
+  <p style="text-align:justify">
+    <div>
+      &nbsp;<h1>&nbsp;Turecký chléb lavaš</h1>
+      &nbsp;<p>&nbsp;&nbsp;INGREDIENCE</p>
+      <ul>
+        <li>400g chlebové mouky</li>
+        <li>2 lžíce oleje</li>
+        <li>hrnek vody</li>
+        <li>sůl</li>
+      </ul>
+      &nbsp;<p>&nbsp;&nbsp;POSTUP</p>
+      <b>&nbsp;&nbsp;Troubu předehřejeme na 250 °C.
+        <br>&nbsp;&nbsp;Mezitím si zpracujeme ingredience
+        <br>&nbsp;&nbsp;do těsta, které se nelepí.
+        Následně
         <br>&nbsp;&nbsp;vyválíme tenké placky.
-       Ty naskládáme 
-       <br>&nbsp;&nbsp;na plech, potřeme vodou a zasypeme 
-       <br>&nbsp;&nbsp;například mákem. Pečeme přibližně 
+        Ty naskládáme
+        <br>&nbsp;&nbsp;na plech, potřeme vodou a zasypeme
+        <br>&nbsp;&nbsp;například mákem. Pečeme přibližně
         <br>&nbsp;&nbsp;3 minuty, dokud se placka nenafoukne.</b>
-      </div></p>
-      
+    </div>
+  </p>
 
 
 
-    </body>
 
-    </html>
-    
+</body>
+
+</html>
